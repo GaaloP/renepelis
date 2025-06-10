@@ -67,9 +67,9 @@ class _MoviePoster extends StatelessWidget {
           ),
           SizedBox(height: 5),
           Text(
-            'Arcane: League of Legends',
+            movie.title,
             overflow: TextOverflow.ellipsis,
-            maxLines: 2,
+            maxLines: 1,
             softWrap: false,
             textAlign: TextAlign.center,
           )
